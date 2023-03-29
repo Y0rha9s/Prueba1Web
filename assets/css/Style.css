@@ -1,0 +1,32 @@
+body{
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 150px;
+    border: solid black 1px;
+}
+
+
+/* crear clase css*/
+.titulo-principal {
+    color: black;
+    text-align: center;
+}
+
+.texto-justificado{
+    text-align: justify;
+}
+
+.esquinar-texto{
+    text-align: right;
+}
+
+.mt-0{
+    margin-top: 5 !important;
+    margin-bottom: 5 !important;
+}
+
+.margen-lateral{
+    margin-left: 20px;
+}
+
