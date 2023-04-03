@@ -7,6 +7,10 @@
     <title>Formulario</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/Style.css">
+    <!--Iconos-->
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/9fbab434bd.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <!--#region bootstrap-->
@@ -16,50 +20,74 @@
 <!--#endregion -->
 <!--#region Nav bar  -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-    <div class="container-fluid">
-      <img src="./assets/IMG/carniceria2.png" alt="" width="70" height="70">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Index.html">Menu </a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Productos
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="Vacuno.html">Vacuno</a></li>
-              <li><a class="dropdown-item" href="Cerdo.html">Cerdo</a></li>
-              <li><a class="dropdown-item" href="Ave.html">Ave</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href=""></a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Contactanos.html">Contactanos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Formulario.html">Formulario</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled"></a>
-          </li>
-        </ul>
+  <div class="container-fluid">
+    <img src="./assets/IMG/carniceria2.png" alt="" width="70" height="70">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Index.html">Menu </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Productos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Vacuno.html">Vacuno</a></li>
+            <li><a class="dropdown-item" href="Cerdo.html">Cerdo</a></li>
+            <li><a class="dropdown-item" href="Ave.html">Ave</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href=""></a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <!--<a class="nav-link" href="Contactanos.html">Contactanos</a>-->
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" href="Formulario.html">Formulario</a>
+        </li>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <input class="form-control me-1" type="search" placeholder="Necesitas algo?" aria-label="Search" style="width: 800px; margin-left: 180px;">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
         </form>
-      </div>
+      </ul>
+      <i class="fa-solid fa-cart-plus fa-2xl" style="color:#ffffff; margin-right: 30px;"></i>
+      <i class="fa-solid fa-user fa-2xl" style="color: #ffffff; margin-top: 15px;"><p style="margin-left: 40px; font-size: 4mm;">Bienvenido</p></i>
     </div>
-  </nav>
+  </div>
+</nav>
   <!--#endregion -->
   
     <a href="Index.html">Volver</a>
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <img src="assets/IMG/carniceria2.png" alt="logo de carniceria">
+          </figure>
+        </div>
+        <div class="box">
+          <h2>SOBRE NOSOTROS</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, alias?</p>
+        </div>
+        <div class="box">
+          <h2>Siguenos</h2>
+          <div class="red-social">
+            <a href="" class="fa fa-facebook"></a>
+            <a href="" class="fa fa-instagram"></a>
+            <a href="" class="fa fa-twitter"></a>
+            <a href="" class="fa fa-whatsapp"></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small>&copy; 2023 <b>Yorha's</b>- todos los derechos reservados</small>
+      </div>
+    </footer>
 </body>
 </html>
