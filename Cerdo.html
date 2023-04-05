@@ -19,45 +19,48 @@
       crossorigin="anonymous"></script>
     <!--#endregion -->
     <!--#region Nav bar  -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <div class="container-fluid">
-        <img src="./assets/IMG/carniceria2.png" alt="" width="70" height="70">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        <!-- icono o nombre -->
+  
+        <a class="navbar-brand" href="index3.html">
+          <img src="./assets/IMG/carniceria2.png" alt="" width="70" height="70">
+          <span class="text-warning"></span>
+        </a>
+  
+        <!-- boton del menu -->
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  
+        <!-- elementos del menu colapsable -->
+  
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Index.html">Menu </a>
+              <a class="nav-link active" aria-current="page" href="index3.html">Inicio</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 Productos
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Vacuno.html">Vacuno</a></li>
-                <li><a class="dropdown-item" href="Cerdo.html">Cerdo</a></li>
+  
+              <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="Ave.html">Ave</a></li>
+                <li><a class="dropdown-item" href="Cerdo.html">Cerdo</a>
                 <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href=""></a></li>
+                <li><a class="dropdown-item" href="Vacuno.html">Vacuno</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <!--<a class="nav-link" href="Contactanos.html">Contactanos</a>-->
-            </li>
-            <li class="nav-item" >
-              <a class="nav-link" href="Formulario.html">Formulario</a>
-            </li>
-            <form class="d-flex" role="search">
-              <input class="form-control me-1" type="search" placeholder="Necesitas algo?" aria-label="Search" style="width: 800px; margin-left: 180px;">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
           </ul>
-          <i class="fa-solid fa-cart-plus fa-2xl" style="color:#ffffff; margin-right: 30px;"></i>
-          <i class="fa-solid fa-user fa-2xl" style="color: #ffffff; margin-top: 15px;"><p style="margin-left: 40px; font-size: 4mm;">Bienvenido</p></i>
+          <hr class="d-md-none text-white-50">
+          <form class="d-flex" role="search">
+            <input class="form-control me-1" type="search" placeholder="Necesitas algo?" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
         </div>
       </div>
     </nav>
