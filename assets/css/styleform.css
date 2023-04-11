@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url(../IMG/carniceria2.png);
+    background: url(../IMG/gris.png);
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
@@ -17,7 +17,7 @@ body {
 .contenedor .form .form-header .form-title {
     font-weight: normal;
     font-family: sans-serif;
-    color: yellow;
+    color: whitesmoke;
     text-align: center;
     padding: 35px 0;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 .contenedor .form {
-    background: rgba(0, 0, 0, .6);
+    background: rgb(29, 29, 29);
     width: 90%;
     max-width: 650px;
     margin: auto;
@@ -39,8 +39,8 @@ body {
 
 .contenedor .form .form-label{
     display: block;
-    color: white;
-    font-size: 16px;
+    color: wheat;
+    font-size: 20px;
     font-family: Roboto;
     position: relative;
 }
@@ -49,7 +49,7 @@ body {
     background: whitesmoke;
     border: none;
     outline: none;
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid rgb(0, 217, 255);
     width: 100%;
     padding: 12px;
     margin-bottom: 20px; 
@@ -70,14 +70,14 @@ body {
     width: 100%;
     font-family: Roboto;
     outline: none;
-    background: gray;
-    font-size: 16px;
+    background: #0d2033;
+    font-size: 28px;
     border: none;
-    color: greenyellow;
+    color: white;
     padding: 15px 0;
     cursor: pointer;
 }
 
 .contenedor .form .btn-submit:hover {
-    background: #f29718;
+    background:rgb(255, 168, 47);
 }
